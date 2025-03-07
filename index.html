@@ -207,10 +207,29 @@
             <form>
                 <label for="name">Nombre</label>
                 <input type="text" id="name" name="name" required>
+                
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="subject">Asunto</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="query-type">Tipo de Consulta</label>
+                <select id="query-type" name="query-type" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="proyecto">Propuesta de Proyecto</option>
+                    <option value="colaboracion">Colaboración</option>
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="otro">Otro</option>
+                </select>
+                
+
                 <label for="message">Mensaje</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
+                
                 <button type="submit">Enviar</button>
             </form>
         </section>

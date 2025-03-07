@@ -166,7 +166,7 @@ nav ul li a:hover {
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,  .contact-form select  {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
@@ -191,6 +191,8 @@ nav ul li a:hover {
 .container{
     padding: 50px;
 }
+
+
 /* Footer */
 footer {
     text-align: center;
